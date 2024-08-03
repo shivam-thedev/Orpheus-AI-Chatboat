@@ -1,8 +1,16 @@
-# React + Vite
+# Orpheus AI Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Orpheus is a fully responsive AI chatbot designed to assist users by providing information and answering questions in real-time. It uses React.js for the front end and Tailwind CSS for styling, delivering a seamless user experience across devices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design:** Works flawlessly on desktop and mobile devices.
+- **Real-Time Interaction:** Provides immediate responses to user queries.
+- **Interactive UI:** Engaging and user-friendly interface with images and icons.
+- **Dynamic Prompts:** Clickable prompts to load predefined questions for desktop
+
+## Technologies Used
+
+- **React.js
+- **Tailwind CSS
+
