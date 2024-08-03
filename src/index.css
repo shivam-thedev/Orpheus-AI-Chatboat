@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  animation:fadeIn 1s;
+  font-family: outfit;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow:hidden;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
+@media(max-width:600px){
+  .sidebar{
+    display: none;
+  }
+  .app{
+    @apply pl-3 pb-4
+  }
+}
+
+
+
+

@@ -1,0 +1,88 @@
+.box{
+    @apply  p-3.5 rounded-lg relative bg-[#053f7163] cursor-pointer  hover:bg-[#053f71a5]
+}
+
+.box img{
+    @apply w-64 h-auto rounded-lg pb-2.5
+}
+
+.box i{
+    @apply text-xl absolute top-4 left-5 py-2 px-3 rounded-full bg-[#053f717b] ;
+}
+
+.result::-webkit-scrollbar{
+    display: none;
+}
+
+.loader hr{
+    background:linear-gradient(to right,#0088ff9f,#ffffff5d,#0088ff9f);
+    @apply rounded-md bg-[#f6f7f8] bg-[length:800px_50px] h-5;
+    animation:loader 3s infinite linear;
+    border:none;
+}
+
+@keyframes loader {
+    0%{
+        background-position: -800px 0px;
+    }
+    100%{
+        background-position: 800px 0px;
+    }
+}
+
+@media(max-width:600px){
+    .main .nav{
+        @apply p-0 py-2 px-2 
+    }
+    .main-container{
+        @apply max-h-[75vh] overflow-y-scroll
+    }
+    .main-container .greet{
+        @apply my-0 px-6
+    }
+    .greet p{
+        @apply text-4xl
+    }
+
+    .main-container .cards{
+        @apply  hidden
+    }
+
+    .main-container .main-bottom{
+        @apply   w-11/12 py-8  
+    }
+    .main-bottom p{
+        display:none
+    }
+
+    .search-box input{
+        @apply  p-1 
+    }
+    .main-container .result{
+        @apply p-[4%] max-h-[75vh] 
+    }
+
+    .result .result-title{
+        @apply  gap-3 my-2 
+    }
+
+    .result-title button{
+        @apply text-sm  py-2 px-3
+    }
+
+    .result-title p{
+        @apply text-base
+    }
+
+    .result .result-data{
+        @apply gap-3
+    }
+
+    .result-data img{
+        @apply w-9
+    }
+    .result-data p{
+        @apply text-base
+    }
+
+}
