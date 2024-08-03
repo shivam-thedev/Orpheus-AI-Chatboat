@@ -11,6 +11,6 @@ Orpheus is a fully responsive AI chatbot designed to assist users by providing i
 
 ## Technologies Used
 
-- **React.js
-- **Tailwind CSS
+- **React.js**
+- **Tailwind CSS**
 
